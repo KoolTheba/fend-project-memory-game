@@ -276,7 +276,7 @@
      * @return {array} - list of shuffled items. 
      */
     function shuffle(array) {
-        var currentIndex = array.length,
+        let currentIndex = array.length,
             temporaryValue, randomIndex;
 
         while (currentIndex !== 0) {
